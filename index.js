@@ -1,6 +1,3 @@
-// Script by ConfuMods
-// Si editas deja creditos
-// ConfuMods no se hara responsable de malos usos
 const {
   WAConnection: _WAConnection,
   MessageType,
