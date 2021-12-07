@@ -4072,6 +4072,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
       case "public":
         if (!isOwner) return reply("Esta función es solo para el propietario..");
         if (banChats === false) return;
+        uptime = process.uptime();
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = false;
         fakeyt(`「 *MODO-PUBLICO* 」`);
