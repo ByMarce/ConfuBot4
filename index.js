@@ -148,7 +148,7 @@ thumb = fs.readFileSync("./stik/thum.jpeg");
 numbernye = "0"; 
 waktu = "-";
 alasan = "-"; 
-autojoin = true;
+autojoin = false;
 cmhit = []
 hit_today = [];
 //=================================================//
