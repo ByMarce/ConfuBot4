@@ -322,7 +322,7 @@ const createSerial = (size) => {
             return crypto.randomBytes(size).toString('hex').slice(0, size)
         }
 const checkRegisteredUser = (sender) => {
-            let status = false
+            let status = true
             Object.keys(_registered).forEach((i) => {
                 if (_registered[i].id === sender) {
                     status = true
