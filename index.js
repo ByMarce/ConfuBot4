@@ -1244,7 +1244,6 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
        txtt =`Como estas ${pushname}? 👋\n\nSI NO VES LOS BOTONES, DESACTIVA LA OPCION DE VER IMAGENES EN LOS GRUPOS`
 
                buttons = [
-               {buttonId:`owner`,buttonText:{displayText:'CREADOR🧧'},type:1},
                {buttonId:`command`,buttonText:{displayText:'🔖LIST MENU'},type:1}]
 
 
