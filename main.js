@@ -168,9 +168,7 @@ console.log(`- [ NUEVA DESC ] - En ${metdata.subject}`)
         pp_grup =
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
-      if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, " _Hola, que tal?_", "conversation");
-      }
+      if (anu.action == "add" && mem.includes(client.user.jid))
 hehe = await getBuffer(pp_user)
 if (anu.action == 'add' && !mem.includes(client.user.jid)) {
              const mdata = await client.groupMetadata(anu.jid)
