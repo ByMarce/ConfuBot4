@@ -185,7 +185,7 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
                 teks = `°き⃟🏮 *Hoʟa* @${num.split('@')[0]}\n°き⃟🏮 *Bɪᴏ* : *${thu.status}*\n°き⃟🏮 *Mɪᴇᴍʙʀᴏs : ${memeg}*\n°き⃟🏮 *Wᴇʟᴄᴏᴍᴇ a* \n *${mdata.subject}*\n°き⃟🏮 *Lee la descripción*:
 ${mdata.desc}`
                 
-                welcomeBut = [{buttonId:`menu`,buttonText:{displayText:'MENU'},type:1}]
+                welcomeBut = [{buttonId:`allmenu`,buttonText:{displayText:'MENU'},type:1}]
                 welcomeButt = { contentText: ` `, footerText: `${teks}`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
                 client.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
                  }      
