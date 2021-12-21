@@ -187,7 +187,7 @@ ${mdata.desc}`
                 
                 welcomeBut = [{buttonId:`allmenu`,buttonText:{displayText:'MENU'},type:1}]
                 welcomeButt = { contentText: ` `, footerText: `${teks}`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
-                client.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: "contextInfo": { "mentionedJid" : [num], },})
+                client.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
                  }      
       if (anu.action == "promote") {
         const mdata = await client.groupMetadata(anu.jid);
