@@ -1229,8 +1229,8 @@ const serialUser = createSerial(18)
 		}, 2000)
         break
       
-case 'help':
-case 'menu':
+case 'hel':
+case 'me':
 groups = cnf.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = cnf.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1395,7 +1395,7 @@ prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkonta
                break
 
         case 'allmenu':
-        case 'menuall':
+        case 'menu':
         case 'all':
 groups = cnf.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = cnf.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
